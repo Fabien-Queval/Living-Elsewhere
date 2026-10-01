@@ -12,7 +12,7 @@ Console.WriteLine($"{firstAdventurer.Name} est niveau {firstAdventurer.Level}.")
 
 Adventurer  secondAdventurer = new Adventurer("Zia aux douces fesses", 32);
 
-firstAdventurer.Level++;
+firstAdventurer.LevelUp();
 
 Console.WriteLine($"{firstAdventurer.Name} est level {firstAdventurer.Level}.");
 
