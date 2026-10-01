@@ -1,4 +1,4 @@
-﻿# Living Elsewhere
+# Living Elsewhere
 
 ## Présentation
 
@@ -8,7 +8,15 @@ Son ambition est de rendre le monde vivant et indépendant du joueur, afin que c
 
 ## État actuel
 
-Le projet est au stade du Sprint 0 : l'environnement C#/.NET est installé et une application console fonctionnelle sert de base au futur moteur de simulation. Aucun système de jeu n'est encore implémenté.
+### Sprint 1 - Complété
+
+### Adventurer :
+Un aventurier est décrit, et affiché.
+La propriété `Level` est lisible depuis l’extérieur, mais seul `Adventurer` peut la modifier grâce à `private set`. La méthode publique `LevelUp()` augmente le niveau de l’instance sur laquelle elle est appelée.
+
+### Quest: 
+Une quête est pour l'instant décrite et affichée, pas encore résolue
+
 
 ## Lancer le prototype
 
